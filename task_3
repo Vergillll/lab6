@@ -1,0 +1,4 @@
+K = int(input())
+Y = int(input())
+Day = (Y + Y-1 + K)%7
+print(Day)

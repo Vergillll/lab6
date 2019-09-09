@@ -1,0 +1,9 @@
+A = int(input())
+B = int(input())
+C = int(input())
+Space = A*B
+sizeQ = C**2
+count = Space//sizeQ
+sizeE = Space%sizeQ
+print(count)
+print(sizeE)

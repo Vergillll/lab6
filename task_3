@@ -1,4 +1,4 @@
 K = int(input())
-Y = int(input())
-Day = (Y + Y-1 + K)%7
+N = int(input())
+Day = (N+K%7)%7 -1
 print(Day)

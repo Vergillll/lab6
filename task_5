@@ -1,3 +1,6 @@
 Y = int(input())
-C = Y//100 + 1
+if Y % 100 == 0:
+    C = Y//100
+else:
+    C = Y//100 + 1
 print(C)
